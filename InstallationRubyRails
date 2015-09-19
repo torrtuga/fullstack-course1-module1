@@ -1,0 +1,22 @@
+Install as per default settings.
+But we have downloaded Ruby 4.1 and we need Ruby 4.2.3
+
+In the command prompt type the following command : 
+
+gem sources -r https://rubygems.org/ - to temp remove secure connection
+
+gem sources -a http://rubygems.org/ - add insecure connection
+
+gem update --system - now we're able to update rubygems without SSL
+
+after updating do vice versa
+
+gem sources -r http://rubygems.org/ - to remove insecure connection
+
+gem sources -a https://rubygems.org/ - add secure connection
+
+gem sources -r http://rubygems.org/ - to remove insecure connection
+
+gem sources -a https://rubygems.org/ - add secure connection
+
+gem update
