@@ -33,3 +33,10 @@ CHECK : ruby -v
 
 After extracting the file at a location add environment variable path with location "C:\phantomjs-2.0.0-windows\bin" i.e. the location where phantomjs executable file is stored
 CHECK : phantomjs -v
+
+//FINALLY
+Now finally checking
+rails new test_install
+cd install_test
+rails server
+In the browser goto localhost:3000
