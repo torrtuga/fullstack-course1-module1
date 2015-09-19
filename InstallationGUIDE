@@ -1,3 +1,5 @@
+//Installing Ruby on Rails
+
 Install as per default settings.
 But we have downloaded Ruby 4.1 and we need Ruby 4.2.3
 
@@ -20,3 +22,14 @@ gem sources -r http://rubygems.org/ - to remove insecure connection
 gem sources -a https://rubygems.org/ - add secure connection
 
 gem update
+
+CHECK : ruby -v
+        rails -v
+        git --version
+        
+
+
+//Installing PhantomJS
+
+After extracting the file at a location add environment variable path with location "C:\phantomjs-2.0.0-windows\bin" i.e. the location where phantomjs executable file is stored
+CHECK : phantomjs -v
