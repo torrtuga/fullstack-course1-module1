@@ -40,3 +40,8 @@ rails new test_install
 cd install_test
 rails server
 In the browser goto localhost:3000
+
+//To start
+Go to C:/test_install//
+type in : rails server
+Now you can open localhost:3000
